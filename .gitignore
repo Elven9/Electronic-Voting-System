@@ -7,10 +7,6 @@ package-lock.json
 /server
 /grpcConn
 
-# Vscode Related XD
-.vscode
-.devcontainer
-
 # Sqlite Database
 database.db
 

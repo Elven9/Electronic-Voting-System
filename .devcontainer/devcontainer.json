@@ -1,0 +1,16 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.238.0/containers/go
+{
+	"name": "Development Build",
+	"build": {
+		"dockerfile": "../build/package/dev.dockerfile",
+        "context": ".."
+	},
+
+    "extensions": [
+        "golang.go"
+    ]
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+}
